@@ -1,7 +1,7 @@
 #pragma once
 
-#include <cstddef>
 #include <iostream>
+#include <cstddef>
 #include <math.h>
 #include "Node.h"
 #include "LinkedList.h"
@@ -64,7 +64,7 @@ class HashTable {
                 }
             }
 
-            cout << "Maximum chain length: " << maxChainLen << endl;
-            cout << "Minimum chain length: " << min << endl;
+            cout << maxChainLen << endl;
+            cout << min << endl;
         }
 };
